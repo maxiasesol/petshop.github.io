@@ -1,0 +1,486 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+.fondo{
+    height: 650px;
+    width: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/53ec/2946/b101b9298925dcc2ae1d629537e66036?Expires=1679270400&Signature=e-EX30wXGgFv8AYlJNo3tm7Xk1Yh~7Z3h-H3b~vbjb-GlfuQTQeOVWBXZdkN4ykh6DpJ5KczZVDQotlQTgNiklaeC5HfJ5RILg~1cwUByRT66nTq4F-tnWpYjv7i51C7IEOv2NUx-LZAgvhoLyhDobma4fFlcFuF0OwZVwQ9V6C6FsDOxXbh10wUAA8pO0sIXnwAsMGlNcQNQlX6W5ROhwtr1tEG07uPnEBOXdlOMAySqrrhno6IWk~q9e9R9EDlD1Zu-SAF12nj10T8O07-nP1ow3uDLyozrTEqXxGzOl0HY5MjVPrj1Z5G1D4dfPPIrg7lk-eXogNjplxUIunNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+
+.arriba{
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    text-indent: 6rem;
+}
+
+
+
+.logo{
+    width: 50%;
+    padding-top: 1.4rem;
+    margin-left: 3rem;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.front{
+    color: #3C2313;
+    
+}
+.cat{
+    color: #FFFFFF;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    background-color: #F0A83E;
+}
+
+
+.patita{
+width: 20px;
+height: 20px;
+position: relative;
+top: 4px;
+margin-right: 3px;
+}
+
+
+
+nav ul li{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    }
+
+nav{
+width: 50%;
+text-align: center;
+padding-right: 3rem;
+padding-top: 0.4rem;
+
+}
+
+
+
+
+
+
+
+
+h3{
+
+    position: absolute;
+    left: 62%;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    width: 36%;
+    height: 10%;
+    font-weight: 100;
+    text-align:center;
+    line-height: 60px;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    top:47%;
+}
+
+h4{
+    position: absolute;
+    top:23rem;
+    right: 7%;
+    font-size: 20px;
+    color: #3C2313;
+    width: 340px;
+    height: 40px;
+    font-weight: 400;
+    text-align:center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.comederos{
+    color: white;
+    font-size:18px ;
+    background-color: #F0A83E;
+    width: 140px;
+    height: 8%;
+    top: 27rem;
+    border-radius: 5%;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.destacados{
+    width: 100%;
+    height: 720px;
+    position: relative;
+    padding-top: 3rem;
+    display: block;
+}
+
+
+
+.destaca{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    font-weight: 700;   
+    color: #3C2313;
+    line-height: 46px;
+
+}
+.tresop{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    color: #666666;
+    font-size: 15px;
+    left: 36%;
+    padding-top: 1px; 
+    width: 50%;
+}
+
+.linea{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+
+
+.contenedor{
+    display: flex;
+    margin-top: 5rem;
+    left: 18%;
+    position: relative;
+    width: 65%;
+    height: 430px;
+}
+
+article{
+margin-left: 20px;    
+background-color:#FBFAF6;
+text-align: center;
+height: 400px;
+
+}
+
+
+.foto {
+    width: 260px;
+    height: 260px;
+    position: relative;
+    background-size: cover;
+}
+
+.uno{
+    background-image: url('https://s3-alpha-sig.figma.com/img/c0fa/9330/876474dc05112a5f7e22d36cd77fdc95?Expires=1679270400&Signature=W4p5uzddYRVq-s11ezcu~kUiTwf-UzextCfIQgmMPzy-7Rl6bEZ49v9CrKrZX2RC3U3q28yS4B2aw5o9bJmByGQm9WCERsjikyWo-hgTUd2z0BAM9U0nDFNcAa9nAAuHLo4ZAzSqUruECy99FQMNT0e0MA0JfapVKRCNjYXto0Hda9NIoeRDavs1OS0ywz9KT0yEhh-JJd9XRbOK4uTETJOZjaYO5~ZgJOnd6EJZGlJLZm7hc2GcJXvcHxgpH3doHHUEj5e3dk48XIyArZLcCVQ4Wkn9ANhNt6XdZz6zwvYTKuMCMYVdln24zMb0ysVuIP-u6tSEaDNEKP9nBt1SOg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+position: relative;
+}
+
+
+
+.dos{
+    background-image: url('https://s3-alpha-sig.figma.com/img/c2a8/66ce/7125726772bb9e97c78cbff7ed994948?Expires=1679270400&Signature=NVVvJfY0qsiP6s9Yw1Of0y3f3P7X3gmZ5svYfTQSKLtvrKKPDHtRqUszgwrXob4Az0myygkUQ7Xhtq1Gq7t9rpnNOwm9bm5rGyWJLg6l9jvpSNRtFHV-g0mKYcKpDueqGsoydFVFKdF6x7MR7ruB57L01iU2aPLAZtYc35Tahvb7jid9yKafEoyWyDiDh6wi2i4tKUr35oO3DAVN1~7p5QmQYR3DHo65c~SVEw7xY1KPy1EFbVQp3hiQpKh5RXRCLyIf2hY~OfYjYV0QbXNcXR09nTC~orwuutc1TvfInKqM08FiqoyXdKKIEif28kXo5baLiZ72tz7vChfJANcNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+position: relative;
+}
+.tres{
+background-image: url('https://s3-alpha-sig.figma.com/img/0c07/a3f6/4eda1531de59d2a90d400dc0bf5279cd?Expires=1679270400&Signature=duyy7j-Glr7Sda-5wLxwEiHkFv4rPjz4yCbyAmVe~nWZE-qIz5X7dUCTcyjEmvZ9rM3j-nIfU-QMKi3cEeABFVP~y5LkZD0hYvTGcUbZWi~r9okb0IDBB559ls1RDJ58itVIsg2cbaEgL271J57u~t~g~-QzhLgRcatDea5fcSgEt-QIZHnZbASUbiXCQpMN36N~hOLrpFWe2xcaXBIrVwZ1b~NJrtMgJTHj~tIx3hRb9~7VC1Qh1-Tqqu~zvFFhdmWAoGIEIgYZOcwyfYhZKXX3qHgqQcX8udZFV-aGex7nmdDDPK3YOsCvLjAnkyjyFnWrb2GM9OfVuJtkbuAFEA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+position: relative;
+}
+
+
+
+
+.chu{
+    font-size: 15px;
+    color: #3C2313;
+    position: relative;
+}
+
+.precio {
+    color: #F0A83E;
+    position: relative;
+}
+
+
+.contacto{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 8rem;
+    }
+
+.caja{
+    background-color: #3C2313;
+    border-radius: 15px;
+    width: 30%;
+    height: 40px;
+    font-size: 9px;
+    color: #FFFFFF;
+    font-weight: 400;
+    position: relative;
+    left:35%;
+    margin-top: 1rem;
+    text-indent: 1rem;  
+    line-height: 2.5rem;
+}
+.cajatitulo{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C2313;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+}   
+
+
+.contienebotonera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.botonera{
+    display: flex;
+    position: relative;
+    top:5%;
+
+}
+
+.botonres{
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    color:#FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.1rem;
+    background-color: #8A8787;
+    position: relative;
+}
+
+.botonenv{
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    color:#FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.1rem;
+    margin-left: 0.6rem;
+    background-color: #F0A83E;
+    position: relative;
+}
+
+
+.sus{
+    background-color: #F0A83E;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: 0;
+}
+
+.conten{
+display: flex;
+width: 50%;
+position: relative;
+left: 20%;
+}
+.imput{
+    width: 50%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    font-size: 9px;
+    color: #A0A0A0;
+    font-weight: 400;
+    text-align: start;
+    left: 2%;
+    line-height: 35px;
+    position: relative;
+
+    }
+
+.textosus{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    bottom:0.8rem;
+    width: 30%;
+    text-align: left;
+    text-indent: 4rem;
+}
+
+.botonmarron{
+    background-color: #3C2313;
+    width: 70px;
+    height: 34px;
+    position: relative;
+    font-size: 9px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 1rem;
+    margin-top: 2%;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 34px;
+
+}
+
+
+.info{
+    background-color: #3C2313;
+    height: 284px;
+    position: relative;
+    margin-top: -20px;
+    width: 100%;
+
+}
+
+.info .titulo{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px ;
+    color: #FFFFFF;
+    position: relative;
+    top:20%;
+    left: 20%;
+    width: 60%;
+}
+
+
+.info .subtitulo{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px ;
+    color: #8A8787;
+    position: relative;
+    top:15%;
+    left: 20%;
+    width: 60%;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #222222;
+    position: relative;
+    margin: 0%;
+    text-align: center;
+    line-height: 7px;
+
+}
+
+
+
+
+
+
+
+.pat{
+
+margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+    .caja{
+        width: 70%;
+        left: 15%;
+    }
+
+
+.contenedor{
+display: block;
+left: 17%;
+
+}
+.contacto{
+    position: absolute;
+    top:2200px;
+}
+
+.art{
+    display: block;
+    width: 260px;
+    height: 360px;
+    margin-top: 2rem;
+
+}
+
+.tresop{
+    left: 15%;
+}
+
+h3{
+    left: 5%;
+    width:90%;
+} 
+    
+.sus{
+    display: block;
+}
+
+
+
+
+}
+
+
+
+
